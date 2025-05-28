@@ -74,11 +74,6 @@ class Moonarea extends Phaser.Scene {
         this.cameras.main.setDeadzone(50, 50);
         this.cameras.main.setZoom(this.SCALE);
 
-         // Find coins in the "Objects" layer in Phaser
-        // Look for them by finding objects with the name "coin"
-        // Assign the coin texture from the tilemap_sheet sprite sheet
-        // Phaser docs:
-        // https://newdocs.phaser.io/docs/3.80.0/focus/Phaser.Tilemaps.Tilemap-createFromObjects
 
         this.jumpSound = this.sound.add("jumpSound");
         

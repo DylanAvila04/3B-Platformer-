@@ -29,16 +29,7 @@ class Load extends Phaser.Scene {
         this.player = this.add.sprite(100, 100, "purple_spaceman");
         this.player.setScale(2);  // Optional: scale up if needed
 
-
-    
-        // If you'd like to preload the tile/background images into the texture cache,
-        // you can just start the next scene (they'll be used there)
-    
-        // Start your game scene
         this.scene.start("moonBuggedScene");
     }
 
-    // Never get here since a new scene is started in create()
-    update() {
-    }
 }
